@@ -1,0 +1,47 @@
+/* universal selector applies font family and text color*/
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: orange;
+}
+
+/* set background color of body */
+body {
+  background-color: blue;
+}
+
+ul {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* List items in navigation bar */
+li {
+  display: inline;
+  list-style-type:circle;
+  font-size: 18px;
+}
+
+
+header {
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  width: 100%;
+  border: 10px solid black;
+  background-color: lightblue;
+}
+
+
+/* class selector */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#item-1 {
+  font-size: 22px;
+}
+
+
